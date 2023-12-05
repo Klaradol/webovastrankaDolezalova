@@ -1,65 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>It End With Us</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
+    <title>Zdravá výživa</title>
+    
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(172, 50, 107);">
-    <div class="container-fluid">
-      <img src="https://i.etsystatic.com/26948191/r/il/de713a/4076919973/il_1080xN.4076919973_cnhj.jpg" alt="logo" width="95">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Domovská stránka </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"> Něco o spisovatelce</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              více
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">odkazy na filmy</a></li>
-              <li><a class="dropdown-item" href="#">odkazy na knížky</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">zajímavosti</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+    <div class="navbar">
+        <a href="" >Kontakt na nás</a>
+        <a href="" >Co děláme?</a>
+        <a href="" >Proč si vybrat nás?</a>
+        <a href="" >Detaily</a>
+        
     </div>
-  </nav>
-    
- <iframe width="560" height="315" src="https://www.youtube.com/embed/FJ_KfnH7hzQ?si=q-dQasXud9AtGpFV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRPaxEK70Mc?si=2wRc5G_H-7zYU-Vj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- <div class="obsah">
-   <h6> Obsah knihy:
-    Lily to neměla v životě vždycky jednoduché. Ušla ale dlouhou cestu a teď žije v Bostonu a rozjíždí vlastní business. K tomu se ještě seznámila s dokonalým a neskutečně přitažlivým neurochirurgem Rylem. Vypadá to, že jí všechno vychází na jedničku.</h6>
+    <div class="mainPgeContainer">
+        <div class="headMainPage">
+            <h1>Vytváříme inovativní řešení</h1>
+            <h5>zde najdete vše co potřebujete</h5>
+            <img src="data:image/png;base64,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" alt="google">
+
+    <div class="nasesluzby">
+        
+    <h2>Naše služby</h2>
+
+    <div class="containerRows">
+        <p>Tvorba jídelníčku</p>
+        
+        <p>Vitamíny</p>
+        
+        <p>Lepší životní žití</p>
+   
+    </div>
+     <div class="containerRows" div>
+        <p>Výživa</p>
+        
+        <p>Sport</p>
+        
+      </div>
+     
+    </div>
+    </div>
+
+ <div class="whyUs">
+    <h2> proč si vybrat právě nás?</h2>
+     
+    </div>
+ 
+    <div class="whyUsContainer">
+      
+      <div class="whyUsBlock">
+        <h3>Skvělý tým</h3>
+        <p>Jsme skvělý tým který vám rád pomůže se zdravým životním stylem. Uděláme všechno pro vaši spokojenost.</p>
+ 
+    </div>
+    <div class="whyUsBlock">
+        <h3>Komunikace</h3>
+        <p> U nás je spokojenost zákazníka na prvním místě. Snažíme se udělat vše pro naše zákazníky i v komunikaci.</p>
+
+    </div>
+
+    <div class="whyUsBlock">
+        <h3>Něco o nás</h3>
+        <p>Jsme tým mladých lidí se stejným zájmem, uděláme všechno proto aby jste se cítili zase tak jako dřív.</p>
+
+    </div>
  </div>
- <footer>
-   <h6>autorské práva: nejsou </h6>
- </footer>
-</body>
+
+
+<div class="postup">
+<img src="https://www.margit.cz/files/2012/11/zdravy-talir-1.png" alt=" obrázek" width="500" height="auto">
+ <div>
+</div>
+
+
+</div>
+<div>
+
+
+
+ </body> 
 </html>
